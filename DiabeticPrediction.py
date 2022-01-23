@@ -51,7 +51,7 @@ try:
     
     output = json_result["Results"]["WebServiceOutput0"][0]
 
-    print('The Diabetic Prediction of Patient Aged : {} 3with a diabetic Prediction: {} where 1.0 means Diabetic else not with a Probability: {:.2f}'.format(output["age"],
+    print('The Diabetic Prediction of Patient Aged : {} with a diabetic Prediction: {} where 1.0 means Diabetic else not with a Probability: {:.2f}'.format(output["age"],
                                                             output["Scored Labels"],
                                                             output["Scored Probabilities"]))
 except urllib.error.HTTPError as error:
