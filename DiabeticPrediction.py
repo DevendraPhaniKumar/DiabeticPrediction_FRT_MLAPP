@@ -21,10 +21,10 @@ data = {
         [
             {
                 'preg': input("Number of times pregnant :"),
-                'plas': input("Plasma glucose concentration a 2 hours in an oral glucose tolerance test, Range 50-190 :"),
-                'pres': input("Diastolic blood pressure in (mm Hg), Range 25-100 :"),
-                'skin': input("Triceps skin fold thickness (mm) Range 5-70:"),
-                'mass': input("Body mass index (weight in kg/(height in m)^2) Range 18-40 :"),
+                'plas': input("Plasma glucose concentration a 2 hours in an oral glucose tolerance test, Usual-Range 50-190 :"),
+                'pres': input("Diastolic blood pressure in (mm Hg), Usaual-Range 25-100 :"),
+                'skin': input("Triceps skin fold thickness (mm) Usual-Range 5-70:"),
+                'mass': input("Body mass index (weight in kg/(height in m)^2) Usual-Range 18-40 :"),
                 'age': input("Age :"),
                 'class': "1",
             },
